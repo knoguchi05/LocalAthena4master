@@ -1,18 +1,23 @@
 # LocalAthena
 
 ## Usage
-```cp
+```sh
 $ git clone ~~~
 $ ls 
 >> run/ source/
 $ cd source
+$ vim setup.sh
+$   .... edit asetup version
 $ source setup.sh
+$ vim checkout.sh
+    .... rename ktaniguc to your accout name
 $ ./checkout.sh your_branch_name
 $ ./compile.sh cmake
->> compiling athena with cmake
->> After compile, run athena in run directory
+$ cd ../local_run
+$ mkdir test
+$ cd test && cp ../run_local.sh
+$ ./run_local.sh
 ```
-
 
 ## Each script
 
